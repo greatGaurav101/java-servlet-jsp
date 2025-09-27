@@ -6,7 +6,10 @@ public class Developer extends EmployeeClass {
 	String progLang;
 	
 	Developer(int id,String name,int salary,String progLang){
-		
+		this.id = id;
+		this.name=name;
+		this.salary=salary;
+		this.progLang=progLang;
 	}
 	
 	
